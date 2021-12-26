@@ -15,7 +15,7 @@ export default {
 
 <script setup lang="ts">
 
-import {useSlots, computed, VNode, Component, defineProps} from "vue";
+import {useSlots, computed, VNode, Component} from "vue";
 
 interface Props {
   direction?:string
