@@ -1,4 +1,3 @@
-
 import Button from './Button.vue'
 import { mount } from '@vue/test-utils'
 describe('按钮测试', () => {

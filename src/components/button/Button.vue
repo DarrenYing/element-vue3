@@ -59,10 +59,10 @@ const buttonSize = computed(() => {
     margin-left: 10px;
   }
   @include button-size(
-          $--button-padding-vertical,
-          $--button-padding-horizontal,
-          $--button-font-size,
-          $--button-border-radius
+    $--button-padding-vertical,
+    $--button-padding-horizontal,
+    $--button-font-size,
+    $--button-border-radius
   );
   &:hover,
   &:focus {
@@ -72,48 +72,48 @@ const buttonSize = computed(() => {
   }
   @include m(medium) {
     @include button-size(
-            $--button-medium-padding-vertical,
-            $--button-medium-padding-horizontal,
-            $--button-medium-font-size,
-            $--button-medium-border-radius
+      $--button-medium-padding-vertical,
+      $--button-medium-padding-horizontal,
+      $--button-medium-font-size,
+      $--button-medium-border-radius
     );
   }
   @include m(small) {
     @include button-size(
-            $--button-small-padding-vertical,
-            $--button-small-padding-horizontal,
-            $--button-small-font-size,
-            $--button-small-border-radius
+      $--button-small-padding-vertical,
+      $--button-small-padding-horizontal,
+      $--button-small-font-size,
+      $--button-small-border-radius
     );
 
   }
   @include m(large) {
     @include button-size(
-            $--button-large-padding-vertical,
-            $--button-large-padding-horizontal,
-            $--button-large-font-size,
-            $--button-large-border-radius
+      $--button-large-padding-vertical,
+      $--button-large-padding-horizontal,
+      $--button-large-font-size,
+      $--button-large-border-radius
     );
   }
   @include m(primary) {
     @include button-variant(
-            $--button-primary-font-color,
-            $--button-primary-background-color,
-            $--button-primary-border-color
+      $--button-primary-font-color,
+      $--button-primary-background-color,
+      $--button-primary-border-color
     );
   }
   @include m(success) {
     @include button-variant(
-            $--button-success-font-color,
-            $--button-success-background-color,
-            $--button-success-border-color
+      $--button-success-font-color,
+      $--button-success-background-color,
+      $--button-success-border-color
     );
   }
   @include m(danger) {
     @include button-variant(
-            $--button-danger-font-color,
-            $--button-danger-background-color,
-            $--button-danger-border-color
+      $--button-danger-font-color,
+      $--button-danger-background-color,
+      $--button-danger-border-color
     );
   }
 
